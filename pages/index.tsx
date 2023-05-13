@@ -1,10 +1,10 @@
 
-import Headers from "../components/Headers";
+import Header from "../components/Header";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
-        <Headers label="Home"/>
+        <Header label="Home"/>
     </>
     
   );
